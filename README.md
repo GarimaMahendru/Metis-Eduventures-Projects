@@ -244,3 +244,17 @@ Add columns: Year, Month, Week, Day of Week, Is Weekend.
 - The category `IN (...)` list in each query covers all exam verticals excluding school classes, CA, CUET, and other non-core verticals. Extend as needed.
 - `NULLIF(..., 0)` is used throughout to prevent division-by-zero on sparse date windows.
 
+- ## Dashboard Views
+
+### KRA Overview Dashboard
+![KPI Dashboard](screenshots/product_KRAs.png)
+
+Tracks key business metrics like revenue, orders, AOV, and conversion rates.
+
+---
+
+### KPI Overview Dashboard
+![Funnel Dashboard](screenshots/product_KPIs.png)
+
+Shows user journey from installs to conversion, helping identify drop-offs.
+
